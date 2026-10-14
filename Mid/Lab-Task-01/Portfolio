@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <img src="image.jpg" id="pic" width ="150">
+
+    <fieldset>
+        <legend> Personal Info</legend>
+        <table>
+            <tr>
+                <td> <label for="Name"> Name:</label> </td>
+                <td> <input type="text" id="Name"
+                value="Fatema Abdden Nedhi" size="40"> </td>
+            </tr>
+            <tr>
+                <td> <label for="Age"> Age: </label></td>
+                <td> <input type="text" id="Age"
+                value="22" size="40"> </td>
+            </tr>
+            <tr>
+                <td> <label for="CGPA"> CGPA:</label> </td>
+                <td> <input type="text" id="CGPA"
+                value="3.89" size ="40"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend> Education Qualification </legend>
+        <table>
+            <tr>
+                <td> <label for="SSC"> SSC: </label> </td>
+                <td><input type= "text" id ="SSC"
+                value="Banani Bidyaniketan School & College"
+                size="40"></td>
+            </tr>
+            <tr>
+                <td> <label for="SSCYear"> Year:</label></td>
+                <td> <input type="text" id= "SSCYear"
+                value="2020" size="40"> </td>
+            </tr>
+            <tr>
+                <td> <label for="SSCBoard"> Board: </label> </td>
+                <td><input type ="text" id= "SSCBoard"
+                value="Dhaka" size="40"> </td>
+            </tr>
+            <tr>
+                <td> <label for="HSC">HSC:</label></td>
+                <td> <input type= "text" id="HSC"
+                value= "Milestone School & College"
+                size="40"></td>
+            </tr>
+            <tr>
+                <td> <label for="HSCYear"> Year:</label> </td>
+                <td> <input type="text" id= "HSCYear"
+                value= "2022" size= "40"></td>
+            </tr>
+            <tr>
+                <td><label for="HSCBoard"> Board: </label> </td>
+                <td><input type ="text" id= "HSCBoard"
+                value="Dhaka" size="40"> </td>
+            </tr>
+            <tr>
+                <td> <label for="University"> Currently Studying:</label> </td>
+                <td> <input type="text" id="University"
+                value="American International University"
+                size="40"> </td>
+            </tr>
+            <tr>
+                <td> <label for="Department"> Department: </label> </td>
+                <td><input type= "text" id="Department"
+                value="CSE Department" size ="40"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+</body>
+</html>
